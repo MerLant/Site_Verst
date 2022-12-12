@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #9c5900;
+}
+.wrapper {
+    margin: 10px auto;
+    width: 1100px;
+    background-color: #fff;
+    padding: 10px;
+}
+header {
+    margin: 30px auto 0px auto;
+    width: 1100px;
+}
+nav {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    width: 1090px;
+    display: flex;
+    
+}
+.navbar li {
+    flex-basis: auto;
+    flex-grow: 1;
+    padding-right: auto;
+    padding-left: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: normal;
+}
+.logo {
+    display: flex;
+    width: 1100px;
+}
+.logo_right {
+    margin: auto 20px auto auto;
+    color: #5c3400;
+}
+.logo a {
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.navbar li:hover, .active {
+    background-color: #181a29;
+}
+.banner {
+    display: block;
+    width: 1080px;
+    margin: auto;
+    margin-top: 10px; 
+}
+main {
+    width: 800px;
+    padding: 0 10px;
+}
+.right {
+    width: 300px;
+
+}
+.container {
+    display: flex;
+}
+.them_block p{
+    margin: 25px 0;
+}
+.them_block h2 {
+    margin-top: 5px;
+    color: #9c5900;
+    margin-bottom: 1px;
+    font-size: 30pt;
+}
+.them_block p a {
+    text-decoration: none;
+    color: #6e9c29;
+}
+.under_h a {
+    text-decoration: none;
+    color: #6e9c29;
+}
+.block_a {
+    margin: 10px 5px;
+    padding: 5px;
+    background-color: wheat;
+}
+.block_a_name {
+    padding: 5px 10px;
+    background-color: #2b75c4;
+}
+.block_a_name h4 {
+    margin: 0;
+    color:white;
+    font-weight: 300;
+}
+.block_a_ul {
+    margin: 5px;
+    padding-inline-start: 5px;
+}
+.block_a_ul li {
+    border-bottom: 1px solid #cabda5;
+    list-style-type: none;
+    padding: 5px;
+}
+.block_a_ul li a {
+    text-decoration: none;
+    color: #6e9c29;
+}
+.block_a p {
+    padding: 5px;
+    margin: 5px 0;
+}
+footer {
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #a9ce70;
+}
+footer a {
+    text-decoration: none;
+    color: #6e9c29;
+}
