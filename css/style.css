@@ -10,18 +10,17 @@ header {
     border-bottom: 5px solid #00CCFF;
 }
 .navbar {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     width: 1200px;
 }
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
 .logo {
     margin: auto auto auto 0;
-    /* position: absolute; */
-    /* width: 100%;
-    height: 87px;
-    left: 120px;
-    top: 12px; */
 
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -47,8 +46,6 @@ header {
 .navbar-link {
     text-decoration: none;
     color: #fff;
-    /* align-items: center;
-    text-align: center; */
 }
 .navbar-menu {
     display: flex;
