@@ -1,0 +1,7 @@
+#div {
+    border: solid red 1px;
+    border-radius: 15px;
+    width: 600px;
+    margin: 50px auto;
+    padding: 25px 50px;
+}

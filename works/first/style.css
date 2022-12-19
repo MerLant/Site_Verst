@@ -1,0 +1,14 @@
+body {
+    font-family: system-ui;
+    background: #f06d06;
+    color: white;
+    text-align: center;
+}
+table {
+    border: 5px solid grey;
+    background: #00ccff;
+}
+td,
+th {
+    border: 2px solid black;
+}
