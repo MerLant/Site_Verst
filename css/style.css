@@ -57,6 +57,9 @@ header {
     padding: 0;
     margin: 0;
 }
+.navbar-menu li {
+    list-style-type: none;
+}
 .navbar-item {
     height: 65px;
     width: 150px;
@@ -69,7 +72,7 @@ header {
     display: flex;
     justify-content: center;
 }
-.navbar-link:hover {
+.navbar-item:hover {
     background-color: #00ccff;
 }
 .link {
